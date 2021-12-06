@@ -1,0 +1,17 @@
+.nav-bg{
+    background-color: rgb(250, 250, 250);
+}
+.Nav-bar{
+    text-decoration: none;
+    padding-top: 8px;
+    margin-right: 10px;
+    color: black;
+}
+.company-dropdown{
+    margin-left: 20px !important;
+}
+.logo{
+    width: 250px;
+    border: 2px solid goldenrod;
+    padding: 5px;
+}
