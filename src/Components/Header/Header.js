@@ -17,18 +17,12 @@ const Header = () => {
                     <Navbar className="nav-bg" expand="lg">
                         <Container>
                             <Navbar.Brand href="#home"><img className="logo" src="https://i.ibb.co/XxzXZFN/Whats-App-Image-2021-12-05-at-8-06-48-PM.jpg" alt="Whats-App-Image-2021-12-05-at-8-06-48-PM" border="0" /></Navbar.Brand>
-                            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                            <Navbar.Toggle aria-controls="basic-navbar-nav" className="xyz" />
                             <Navbar.Collapse id="basic-navbar-nav">
                                 <Nav className="me-auto">
                                     <Link className="Nav-bar" to="/home">Home</Link>
 
-                                    <NavDropdown title="Program" id="basic-nav-dropdown">
-                                        <Link className="Nav-bar company-dropdown" to="/about">About Us</Link> <br />
-                                        <Link className="Nav-bar company-dropdown" to="/whyssg">Why SSG ?</Link> <br />
-                                        <Link className="Nav-bar company-dropdown" to="/missionvision">Mission & Vision</Link> <br />
-                                    </NavDropdown>
-
-                                    <NavDropdown title="University" id="basic-nav-dropdown">
+                                    <NavDropdown title="About Us" id="basic-nav-dropdown">
                                         <Link className="Nav-bar company-dropdown" to="/about">About Us</Link> <br />
                                         <Link className="Nav-bar company-dropdown" to="/whyssg">Why SSG ?</Link> <br />
                                         <Link className="Nav-bar company-dropdown" to="/missionvision">Mission & Vision</Link> <br />
@@ -39,7 +33,7 @@ const Header = () => {
                                         <Link className="Nav-bar company-dropdown" to="/whyssg">Why SSG ?</Link> <br />
                                         <Link className="Nav-bar company-dropdown" to="/missionvision">Mission & Vision</Link> <br />
                                     </NavDropdown>
-                                    
+
                                 </Nav>
                             </Navbar.Collapse>
                         </Container>
